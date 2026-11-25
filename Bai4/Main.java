@@ -37,7 +37,7 @@ abstract class SinhVien {
     protected final String maHe;
     protected final String maSV;
     protected final int soTinChi;
-    private MienGiam mienGiam; // có thể null (không có chính sách)
+    private MienGiam mienGiam; 
 
     public SinhVien(String maHe, String maSV, int soTinChi) {
         this.maHe = maHe;
